@@ -1,0 +1,55 @@
+.review-form h2{
+margin-right: 350px;
+}
+.review-form2 {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+  }
+  
+  .review-form2 .form-group2 {
+    margin-bottom: 15px;
+  }
+  
+  .review-form2 .form-group2 label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .review-form2 .form-group2 input,
+  .review-form2 .form-group2 select,
+  .review-form2 .form-group2 textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .review-form2 .star-rating {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .review-form2 .star-rating .star-selected {
+    color: #FFD700;
+  }
+  
+  .review-form2 .star-rating .star-unselected {
+    color: #ddd;
+  }
+  
+  .review-form2 button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .review-form2 button:hover {
+    background-color: #0056b3;
+  }
+  

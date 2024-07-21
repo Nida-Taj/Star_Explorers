@@ -1,0 +1,80 @@
+
+.review {
+    display: flex;
+    align-items: flex-start;
+    padding: 16px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff; 
+    flex-direction: column; 
+  }
+  .review .divider {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+  }
+  .review .left-side {
+    flex: 1;
+    margin-bottom: 10px; 
+  }
+  
+  .review .left-side h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .review .left-side .package-name2 {
+    font-size: 1 em;
+    color: #555;
+    white-space: nowrap;
+    overflow: visible;
+    text-overflow: clip;
+  }
+  
+  .review .left-side p {
+    margin: 4px 0;
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .review .left-side .stars {
+    display: flex;
+    font-size: 1.1em;
+    color: #FFD700;
+  }
+  
+  .review .comment-section {
+    margin-bottom: 10px; 
+  }
+  
+  .review .comment {
+    margin: 0;
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .review .reply-section {
+    padding-top: 10px;
+    width: 100%;
+  }
+  
+  .reply-form textarea {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  .reply-form button {
+    display: block;
+    margin-top: 5px;
+  }
+  
+  .reply {
+    border-left: 2px solid #ddd;
+    padding-left: 10px;
+    margin-top: 5px;
+  }
+  
+  
+ 

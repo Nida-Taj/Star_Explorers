@@ -1,0 +1,22 @@
+
+.forum {
+    padding: 20px;
+  }
+  
+  .forum h2 {
+    margin-bottom: 20px;
+    font-family: "Julius Sans One";
+    text-align: left;
+    font-size: 30px;
+  }
+  
+  .forum .reviews {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .forum .reviews p {
+    font-size: 18px;
+
+  }
+  

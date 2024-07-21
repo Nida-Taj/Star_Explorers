@@ -1,0 +1,77 @@
+.local-amenities {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .local-amenities .title-and-filters {
+    flex: 1;
+  }
+  
+  .local-amenities h1 {
+    font-family: "Julius Sans One";
+    margin: 0 0 20px 0; 
+  }
+  
+  .filters {
+    flex-direction: column;
+    display: flex;
+    margin-right: 20px;
+  }
+  
+  .filter-group {
+    margin-bottom: 20px;
+  }
+  
+  .filter-group h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .filter-group label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .amenities-display {
+    flex: 3;
+  }
+  
+  .amenity-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .amenity-image {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  
+  .amenity-details {
+    flex: 1;
+  }
+  
+  .amenity-details h4 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .amenity-details .description {
+    padding: 10px;
+    font-size: 1.1em;
+    color: black;
+  }
+  
+  .amenity-details .package {
+    font-size: 1.0em;
+    color: #777;
+  }
+  
+  

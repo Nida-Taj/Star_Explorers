@@ -1,0 +1,107 @@
+.book-now {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.progress-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.step {
+    width: 33%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.step.completed {
+    background-color: #4caf50;
+    color: white;
+}
+
+.step.active {
+    background-color: rgb(153, 201, 240);
+    color: white;
+}
+
+.form-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-buttons2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-buttons2 button {
+    padding: 10px 20px;
+    background-color: rgb(153, 201, 240);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-buttons2 button:hover {
+    background-color: rgb(153, 201, 240);
+}
+
+.confirmation {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.custom-amenity-row {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.custom-amenity-row input {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.custom-amenity-row button {
+    background: none;
+    border: none;
+    color: #f44336;
+    cursor: pointer;
+}
+
+.custom-amenity-row button:hover {
+    color: white;
+}
